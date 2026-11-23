@@ -978,6 +978,11 @@ hash = "f3452ff57ccdda5a406ec3e1100245e78f0884d3d2dd5f6be1ba885335a6ffb3"
 metafile = true
 
 [[files]]
+file = "mods/aether-enhanced-extinguishing.pw.toml"
+hash = "3ab0e784d15c52edda001697336bc3d7bceb1d016c89b166c77b10f6fb689737"
+metafile = true
+
+[[files]]
 file = "mods/aether-villages.pw.toml"
 hash = "56012b11efef62f768ab4c035dc4d6adc5fd72a37021342e78fe36895c6bfdce"
 metafile = true
@@ -1513,7 +1518,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "88f5ff58c639f8ad512ee12f04c41fdbc53bbfb137b977485c203067f7dbec77"
+hash = "3ce90635273fb1111b038524c91c25c5d734c3cbd0fe1af1c081b0afbca04175"
 metafile = true
 
 [[files]]
@@ -1723,6 +1728,11 @@ metafile = true
 [[files]]
 file = "mods/pehkui-rebuilt.pw.toml"
 hash = "abe8686e5d9d2d28985e80788deccf3ef8ca49b3ad98a0fab6d967fc505dcdb3"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
