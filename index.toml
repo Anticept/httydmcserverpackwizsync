@@ -2014,6 +2014,11 @@ hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
 
 [[files]]
+file = "mods/zetafix.pw.toml"
+hash = "31d8f6824864d676c101d8d232bd2e792362897a0c115ca1b3d2ed51dbf49871"
+metafile = true
+
+[[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "4652700ee06b6435101176e2b633dfdddb46fc16cbdc376417e4e00ad26468f6"
 metafile = true
