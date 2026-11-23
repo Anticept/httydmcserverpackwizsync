@@ -645,6 +645,46 @@ hash = "f1c49e7af4604001394994b16139cff2523f95539830f3ba9464c198e404456c"
 preserve = true
 
 [[files]]
+file = "config/paxi-neoforge-1_21.toml"
+hash = "1c060e845e29386597054765729f34b0933fa3d1ff75cdd686a4e925cfe973d8"
+
+[[files]]
+file = "config/paxi/datapack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/datapacks/Structory_Towers_v1.0.17.zip"
+hash = "90af7fddea07973fef035b0c99213cc6b4c2baafeeb9c7f8a230b6e256687aa0"
+
+[[files]]
+file = "config/paxi/datapacks/Structory_v1.3.7.zip"
+hash = "55f1281b61e556b80771788bb251a3723b3b771681f03149b049de13c89b6a40"
+
+[[files]]
+file = "config/paxi/resourcepack_load_order.json"
+hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxi/resourcepacks/FA+All_Extensions-v1.10.1.zip"
+hash = "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/FA+Player-v1.1.zip"
+hash = "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
+
+[[files]]
+file = "config/paxi/resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
+hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
+
+[[files]]
+file = "config/paxi/resourcepacks/HTTYDBoars.zip"
+hash = "9c8b478da87c7e6ed7931d66040eeb3042ee5bf69ec48b5c1ab788075ff141a2"
+
+[[files]]
+file = "config/paxi/resourcepacks/berkian_cattle_v1.zip"
+hash = "1b14b72aa83e0fa95daaf450492504107efa707ed101292eaba36145538c326e"
+
+[[files]]
 file = "config/serilum/collective.json"
 hash = "f41ad25ed0e7d6959ca361b5b837140f8ab178c39b65e6d32cd9359c1d663c5f"
 
@@ -1660,6 +1700,11 @@ hash = "b195d17d8138d83647b6abb853e25b3b2d6d8defdc76bb345eb93f40c2232019"
 metafile = true
 
 [[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
 file = "mods/pehkui-rebuilt.pw.toml"
 hash = "abe8686e5d9d2d28985e80788deccf3ef8ca49b3ad98a0fab6d967fc505dcdb3"
 metafile = true
@@ -1979,6 +2024,11 @@ hash = "a7f7162205a99fed65c2191907c00ee6a5f8a8a87cfd661e8d3829ebe346306f"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-dungeons-neoforge.pw.toml"
 hash = "c79a58526fab23bdac3e652a1696cb603fc94197c1173ebe48743659ee5656a5"
 metafile = true
@@ -2022,26 +2072,6 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "4652700ee06b6435101176e2b633dfdddb46fc16cbdc376417e4e00ad26468f6"
 metafile = true
-
-[[files]]
-file = "resourcepacks/FA+All_Extensions-v1.10.1.zip"
-hash = "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
-
-[[files]]
-file = "resourcepacks/FA+Player-v1.1.zip"
-hash = "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
-
-[[files]]
-file = "resourcepacks/FreshAnimations_v1.11.2_1.20+.zip"
-hash = "3a36e09638aa72f3b6e36fcfbcb4f9a3ba31a03b09e777466034bf75827c157e"
-
-[[files]]
-file = "resourcepacks/HTTYDBoars.zip"
-hash = "9c8b478da87c7e6ed7931d66040eeb3042ee5bf69ec48b5c1ab788075ff141a2"
-
-[[files]]
-file = "resourcepacks/berkian_cattle_v1.zip"
-hash = "1b14b72aa83e0fa95daaf450492504107efa707ed101292eaba36145538c326e"
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
