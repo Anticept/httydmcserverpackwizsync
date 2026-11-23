@@ -1292,28 +1292,8 @@ hash = "14408e85b5c920aad825d8a228f5cff72e7c0a4f319e383db64f4f798b7d7b6a"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-trees-quark.pw.toml"
-hash = "6be82afdb084dd07e9eb6ecc14577a0fb47306dee735ff4c1d0a50f0c4790862"
-metafile = true
-
-[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "f619c1ed2e189f9d482d081411fccee4bd26c05cce52a5db914f1989303f080c"
-metafile = true
-
-[[files]]
-file = "mods/dynamictrees-theaether.pw.toml"
-hash = "c9cc818e8ead84e66db57233c835f977e28b6340ff908f4f082ad31be9d9c5a2"
-metafile = true
-
-[[files]]
-file = "mods/dynamictrees.pw.toml"
-hash = "08f23739d39ff4f6a7a30b0f13dabb867e058282c2d95f505e37601cd9c517f0"
-metafile = true
-
-[[files]]
-file = "mods/dynamictreesplus.pw.toml"
-hash = "ffb2957e5b461f8c165ee3873e541081f3478ed211eed6a00b801cdc28e81263"
 metafile = true
 
 [[files]]
