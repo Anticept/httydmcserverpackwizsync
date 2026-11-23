@@ -2046,7 +2046,3 @@ metafile = true
 [[files]]
 file = "world/datapacks/Structory_Towers_v1.0.17.zip"
 hash = "90af7fddea07973fef035b0c99213cc6b4c2baafeeb9c7f8a230b6e256687aa0"
-
-[[files]]
-file = "world/datapacks/WTTW.zip"
-hash = "d2e120f84252926ec500ad689ec28ed4d7110da4faa2bdd31e5a7b15c9b51509"
