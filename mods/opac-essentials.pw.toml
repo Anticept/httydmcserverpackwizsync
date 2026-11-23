@@ -3,11 +3,11 @@ filename = "opac_essentials-2.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5797746bca879a9fda74d95cb0d3a34586dccdfe"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/u0lYa0ln/versions/UB30wGRX/opac_essentials-2.3.jar"
+hash-format = "sha512"
+hash = "e4aead5febad6be8ea00144bce9d73cf816b5f27706dd4e6047f178d5d0d4e88daf7219de3ec51e702c1d5380c6af2865a77acd37f1d169604c6c3a636df658c"
 
 [update]
-[update.curseforge]
-file-id = 9374211
-project-id = 1635645
+[update.modrinth]
+mod-id = "u0lYa0ln"
+version = "UB30wGRX"

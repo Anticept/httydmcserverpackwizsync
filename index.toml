@@ -998,11 +998,6 @@ hash = "88d2fabeace0763014bb9c618d4a1c45d8c4cd1350a55812d4be0dca08263556"
 metafile = true
 
 [[files]]
-file = "mods/alexs-mobs-continued-farmers-delight-refabricated.pw.toml"
-hash = "285a7a961ffdaa5fcd89872375000993c83b8f7efbc1f42f380ae30871e3e711"
-metafile = true
-
-[[files]]
 file = "mods/alexs-mobs-continued.pw.toml"
 hash = "c7fc68946b3f81f8e002024efea49a08b243665637e0c0313e02e399c5366a53"
 metafile = true
@@ -1065,11 +1060,6 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
-metafile = true
-
-[[files]]
-file = "mods/aurorans-dragonbond-util.pw.toml"
-hash = "631b4d85446e19eafe891410544425b8fb923478f3f8463b728ee11dbd17d324"
 metafile = true
 
 [[files]]
@@ -1263,6 +1253,10 @@ hash = "657a415947ae7c99600b9e76cfadd72edca3f67482e99de7c03528e2b0e4c6e5"
 metafile = true
 
 [[files]]
+file = "mods/dragonbond-1.21.1-1.2.0.jar"
+hash = "037e75d5b3357575096558e96534d481efe0c0a8f92b84e802aa63785c08e5e9"
+
+[[files]]
 file = "mods/druids.pw.toml"
 hash = "1071db60d371632ad14d94e7e155f0e1349897794bbddbb8c2cf2f0a7e954ee9"
 metafile = true
@@ -1270,11 +1264,6 @@ metafile = true
 [[files]]
 file = "mods/dungeon-difficulty.pw.toml"
 hash = "03c3516918410182485b46d387e0fe0b13f996a7371ee0ca3b31464f9cbdb24c"
-metafile = true
-
-[[files]]
-file = "mods/dungeons-and-villages-deeper-and-darker.pw.toml"
-hash = "5e5172f368d2f969c1f90b08474d01cab7d655da7f5ae442d8f13bc9a1fc59d8"
 metafile = true
 
 [[files]]
@@ -1688,7 +1677,7 @@ metafile = true
 
 [[files]]
 file = "mods/opac-essentials.pw.toml"
-hash = "59b6604965c4227982b2341368182d469b3710534d376365555dd903b4b56267"
+hash = "d97b318c782b9a32990f9c6e3e8ba6e3e888eebadb61427c92d2a2604433cf08"
 metafile = true
 
 [[files]]
@@ -1972,9 +1961,8 @@ hash = "9c1c1d0d4460e3bb0179c79445209039675519082faf7f286625ce0d311eda52"
 metafile = true
 
 [[files]]
-file = "mods/vonix-guardian.pw.toml"
-hash = "d6a490f79861df44d6a741968dc95f4accba5fc2c9d24bb458ac2a415facaf6c"
-metafile = true
+file = "mods/vonixguardian-neoforge-26.1.2-2.1.2.jar"
+hash = "d22c83a73c2922293eabfc69d8bc30432ef3d6784ac8f176ae0134ee371bb123"
 
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
