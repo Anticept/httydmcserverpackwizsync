@@ -1143,6 +1143,21 @@ hash = "f57e49c9f51ad7cc781f912f27c59a8d8cb165088c67ae832c87b40344d76445"
 metafile = true
 
 [[files]]
+file = "mods/chunky-offline.pw.toml"
+hash = "986f28c111e5ecf1a77054203ddcc6642d269561827cab3968c811672a7ce53c"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
+file = "mods/chunkyborder.pw.toml"
+hash = "cbb43eea425a91c64af48e3275d190c630300a735fb3696b35aadcefabf6a570"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
@@ -1245,11 +1260,6 @@ metafile = true
 [[files]]
 file = "mods/diegesis.pw.toml"
 hash = "4281f48cf4c9a29cc2cc1f5cac1318a9674d4463b5bdb8917eee9b5acaf10ef0"
-metafile = true
-
-[[files]]
-file = "mods/dimworldborder.pw.toml"
-hash = "c33ecff922d319f4c6a622ba6254fd2ee8bbe8234b319f6ae6e5a4d471ee5ff9"
 metafile = true
 
 [[files]]
