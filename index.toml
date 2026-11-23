@@ -653,20 +653,8 @@ file = "config/paxi/datapack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
-file = "config/paxi/datapacks/Cliffs and Coves v1.3.1.zip"
-hash = "5dd58b8b8cdd40a67aded4263d158064bd701f653ba81fc4e8b9db38c7bcbec8"
-
-[[files]]
-file = "config/paxi/datapacks/Navigable Rivers v1.5.0.zip"
-hash = "6fce3f416ab0dcc5f24951bd3c1468e8e7f51b225a23a3f5bce141bbd8b5b427"
-
-[[files]]
 file = "config/paxi/datapacks/Structory_Towers_v1.0.17.zip"
 hash = "90af7fddea07973fef035b0c99213cc6b4c2baafeeb9c7f8a230b6e256687aa0"
-
-[[files]]
-file = "config/paxi/datapacks/Towering Tepuis v1.3.0.zip"
-hash = "9ae88ba4927dfb50f7346ede50ee9cb137c7e3764324cca3f6309624cbb11460"
 
 [[files]]
 file = "config/paxi/datapacks/WTTW.zip"
@@ -2078,6 +2066,14 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "4652700ee06b6435101176e2b633dfdddb46fc16cbdc376417e4e00ad26468f6"
 metafile = true
+
+[[files]]
+file = "seedgen-datapacks/Structory_Towers_v1.0.17.zip"
+hash = "90af7fddea07973fef035b0c99213cc6b4c2baafeeb9c7f8a230b6e256687aa0"
+
+[[files]]
+file = "seedgen-datapacks/WTTW.zip"
+hash = "d2e120f84252926ec500ad689ec28ed4d7110da4faa2bdd31e5a7b15c9b51509"
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
