@@ -1,0 +1,13 @@
+name = "Power Upgrade"
+filename = "power_upgrade-neoforge-1.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4hHEyRDc/versions/uwvTa3hE/power_upgrade-neoforge-1.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "8cb52a92373f6478f31de0165292ea657c3073278c5a4a5ad16b41bacb5f5bca80d7c26570e56770551f51ac7c5deaa3992758b056257872a696eb867d3fc6ca"
+
+[update]
+[update.modrinth]
+mod-id = "4hHEyRDc"
+version = "uwvTa3hE"

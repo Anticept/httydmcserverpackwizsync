@@ -1,0 +1,13 @@
+name = "Greenlight"
+filename = "greenlight-neoforge-0.1.0+mc1.21.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72723263016076cb77290c0c31a73e08d2eb781d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8368096
+project-id = 1597214

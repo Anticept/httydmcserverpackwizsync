@@ -1,0 +1,13 @@
+name = "FAUNA Social Memory Fix (unofficial)"
+filename = "fauna-memory-fix-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af1447474f7a390884c8d726618ba2eb778f86bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9679876
+project-id = 1814065

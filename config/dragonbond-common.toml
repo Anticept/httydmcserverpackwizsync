@@ -1,0 +1,464 @@
+#Overall levelling speed. Every trainer XP gain (species and overall) and every bond XP gain is multiplied.
+[levelling]
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	trainerXpMultiplier = 2.0
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	bondXpMultiplier = 2.0
+
+#How trainer levels speed up taming wild dragons. Multipliers apply to the liking and familiarity
+#FAUNA grants a courting player, and the threat factor scales how menacing FAUNA reads the player's manner.
+[taming]
+	#Extra liking/trust gain per level in the dragon's species (0.04 = +4% per level).
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	speciesLikePerLevel = 0.04
+	#Extra liking/trust gain per overall trainer level.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	overallLikePerLevel = 0.01
+	#Soft cap of the combined liking/trust multiplier; 0 = none (it keeps growing linearly).
+	# Default: 0.0
+	# Range: 0.0 ~ 1000.0
+	tamingMultiplierSoftCap = 0.0
+	#How much less threatening the player seems per species level (0.015 = -1.5%).
+	# Default: 0.015
+	# Range: 0.0 ~ 1.0
+	speciesThreatReductionPerLevel = 0.015
+	#How much less threatening the player seems per overall level.
+	# Default: 0.004
+	# Range: 0.0 ~ 1.0
+	overallThreatReductionPerLevel = 0.004
+	#Floor: the lowest the threat factor can go (0.35 = always at least 35% as threatening).
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	minThreatFactor = 0.35
+	#How much faster a dragon's anger toward the player fades, per level in its species
+	#(0.05 = +5%: anger's half-life is divided by the multiplier). Applies to any dragon, wild or tamed.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	speciesAngerFadePerLevel = 0.05
+	#The same, per overall trainer level.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	overallAngerFadePerLevel = 0.02
+	#Soft cap of the anger fade multiplier; past it, levels give diminishing returns. 0 = none.
+	# Default: 3.0
+	# Range: 0.0 ~ 1000.0
+	angerFadeSoftCap = 3.0
+	#Every bit of trust a wild dragon gains for the player also gives this much liking per point
+	#of trust, per level in its species (0.025 = at level 10, +0.25 liking per 1 trust: 0.0125 for being seen a minute).
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	speciesTrustLikingPerLevel = 0.025
+	#The same, per overall trainer level.
+	# Default: 0.006
+	# Range: 0.0 ~ 1.0
+	overallTrustLikingPerLevel = 0.006
+	#Past this share, levels give diminishing returns toward 1 (liking equal to trust gained).
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	trustLikingSoftCap = 0.75
+
+#How trainer levels speed up bond growth with tamed dragons.
+[bondRate]
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	speciesBondRatePerLevel = 0.03
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	overallBondRatePerLevel = 0.01
+	#Soft cap of the bond rate multiplier; 0 = none (it keeps growing linearly).
+	# Default: 0.0
+	# Range: 0.0 ~ 1000.0
+	bondRateMultiplierSoftCap = 0.0
+
+#Bond XP sources (before the trainer multiplier and the species' bond_rate).
+[bondSources]
+	#While the owner is within companyRadius.
+	# Default: 0.05
+	# Range: 0.0 ~ 100.0
+	companyXpPerSecond = 0.05
+	# Default: 16.0
+	# Range: 1.0 ~ 128.0
+	companyRadius = 16.0
+	#While the owner rides the dragon (added on top of company).
+	# Default: 0.25
+	# Range: 0.0 ~ 100.0
+	ridingXpPerSecond = 0.25
+	#Per full feeding by the owner (tossed food counts at FAUNA's delivery share).
+	# Default: 6.0
+	# Range: 0.0 ~ 1000.0
+	feedXp = 6.0
+	#Per point of damage dealt to a foe of the owner (or anything while ridden by the owner).
+	# Default: 0.4
+	# Range: 0.0 ~ 100.0
+	combatXpPerDamage = 0.4
+	# Default: 4.0
+	# Range: 0.0 ~ 1000.0
+	combatXpPerKill = 4.0
+	#Most combat bond XP a dragon can earn per minute (0 = no cap).
+	# Default: 90.0
+	# Range: 0.0 ~ 100000.0
+	combatXpCapPerMinute = 90.0
+
+#Bond levels are unlimited. XP to go from level L to L+1 = baseXp * (L + 1) ^ exponent.
+[bondCurve]
+	# Default: 40.0
+	# Range: 1.0 ~ 1000000.0
+	baseXp = 40.0
+	# Default: 1.35
+	# Range: 0.0 ~ 5.0
+	exponent = 1.35
+
+#What each bond level gives. Every effect is perLevel * bondLevel up to its soft cap; past the cap each
+#further level adds a little less (see [diminishingReturns]). Chances and reductions close in on 100% without
+#reaching it. Floors are hard limits. Percentages are fractions: 0.03 = +3%.
+[bondEffects]
+	#Points added to each FAUNA primary attribute (CON/ATH/AGI/PRW/POT/VIG, 0-100 scale).
+	# Default: 0.6
+	# Range: 0.0 ~ 100.0
+	attributePerLevel = 0.6
+	# Default: 30.0
+	# Range: 0.0 ~ 1000.0
+	attributeBonusSoftCap = 30.0
+	#Attributes may pass this after the bonus, with diminishing returns (FAUNA's genetic limit is 100).
+	# Default: 150.0
+	# Range: 1.0 ~ 1000.0
+	attributeTotalSoftCap = 150.0
+	#Health regeneration bonus.
+	# Default: 0.04
+	# Range: 0.0 ~ 10.0
+	regenPerLevel = 0.04
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	regenSoftCap = 2.0
+	#Stamina bar size bonus.
+	# Default: 0.02
+	# Range: 0.0 ~ 10.0
+	staminaPerLevel = 0.02
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	staminaSoftCap = 1.0
+	#Stamina regeneration bonus.
+	# Default: 0.03
+	# Range: 0.0 ~ 10.0
+	staminaRegenPerLevel = 0.03
+	# Default: 1.5
+	# Range: 0.0 ~ 100.0
+	staminaRegenSoftCap = 1.5
+	#Hunger (exhaustion) reduction.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	foodDrainReductionPerLevel = 0.02
+	#Past this the reduction keeps closing in on 100% (no hunger) without reaching it.
+	# Default: 0.75
+	# Range: 0.0 ~ 0.99
+	foodDrainReductionSoftCap = 0.75
+	#Added to FAUNA's compliance equilibrium (how readily commands are followed).
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	obediencePerLevel = 0.02
+	#FAUNA itself never lets compliance pass 98%.
+	# Default: 0.6
+	# Range: 0.0 ~ 0.99
+	obedienceSoftCap = 0.6
+	#Special (secondary) ability cooldown reduction. Past the soft cap it keeps closing in on
+	#100% (no cooldown) without reaching it. 0.4 = the cooldown runs out 40% sooner.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	abilityCooldownPerLevel = 0.02
+	# Default: 0.6
+	# Range: 0.0 ~ 0.99
+	abilityCooldownSoftCap = 0.6
+	#Shorter rest after breeding (each parent by its own bond). Past the soft cap it keeps
+	#closing in on 100% without reaching it. 0.6 = rests 60% less.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	breedCooldownPerLevel = 0.02
+	# Default: 0.6
+	# Range: 0.0 ~ 0.99
+	breedCooldownSoftCap = 0.6
+	#Floor: compliance never drops below this (moods and needs can't erode it further).
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	complianceFloorPerLevel = 0.03
+	# Default: 0.85
+	# Range: 0.0 ~ 0.98
+	complianceFloorMax = 0.85
+	#Floor (agreeableness): the dragon's liking for its owner is held at least this high.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	ownerLikeFloorPerLevel = 0.05
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	ownerLikeFloorMax = 1.0
+
+#How bond teaches a dragon to leave friendly parties alone: the owner's other tames, allied players and
+#their tames, and the entity tag #dragonbond:friendly_parties (villagers etc.).
+[peace]
+	#Chance per bond level that the dragon holds back from hurting a friendly party.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	sparePerLevel = 0.08
+	#Past this the chance keeps closing in on 100%.
+	# Default: 0.9
+	# Range: 0.0 ~ 0.99
+	spareSoftCap = 0.9
+	#FAUNA liking per minute the dragon grows for nearby friendly parties, per bond level.
+	# Default: 0.015
+	# Range: 0.0 ~ 1.0
+	warmthPerLevel = 0.015
+	#How high that liking can climb per bond level (FAUNA turns liked rivals into packmates).
+	# Default: 0.06
+	# Range: 0.0 ~ 1.0
+	warmthCeilingPerLevel = 0.06
+	#Past this the limit keeps closing in on FAUNA's maximum liking (1.0).
+	# Default: 0.9
+	# Range: 0.0 ~ 0.99
+	warmthCeilingSoftCap = 0.9
+	#Soft cap of the liking gained per minute; 0 = none.
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	warmthSoftCap = 0.0
+	# Default: 20.0
+	# Range: 1.0 ~ 64.0
+	warmthRadius = 20.0
+	#Toward allied players and their dragons, a dragon acts as if its bond level were this share of
+	#its real one (for warmth, liking limit and sparing). Lower, but it still climbs to full friendship.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	allyShare = 0.6
+	#A dragon may always hit back at something that hurt it (or its owner) this recently.
+	# Default: 200
+	# Range: 0 ~ 12000
+	selfDefenseTicks = 200
+
+#Behaviour modes set from the bond menu. Whether a dragon obeys is FAUNA's compliance plus this bonus.
+[modes]
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	modeObediencePerLevel = 0.03
+	#If true, passive dragons still defend themselves.
+	passiveSelfDefense = false
+	#How far an aggressive dragon looks for something to attack.
+	# Default: 16.0
+	# Range: 2.0 ~ 64.0
+	aggressiveRadius = 16.0
+	# Default: 60
+	# Range: 10 ~ 1200
+	aggressiveScanTicks = 60
+	#Target mode: your dragons within this many blocks go after whatever you hurt (melee or
+	#projectile), if they listen (the same obedience roll as the other modes).
+	# Default: 48.0
+	# Range: 4.0 ~ 256.0
+	targetRallyRadius = 48.0
+	#The chase ends once dragon and target are this far apart (it got away, or the dragon was
+	#called out of range). Calling a dragon back alone doesn't end the chase.
+	# Default: 96.0
+	# Range: 8.0 ~ 512.0
+	targetLoseDistance = 96.0
+	#...or once the dragon hasn't seen the target for this long.
+	# Default: 300
+	# Range: 20 ~ 72000
+	targetLostTicks = 300
+	#...or once it has had the target in sight this long without taking up the fight (it refuses).
+	# Default: 200
+	# Range: 20 ~ 72000
+	targetRefuseTicks = 200
+
+#Anti friendly fire. Covers direct hits, projectiles, breath and area abilities (flame coat, lightning) from players and their tames.
+[friendlyFire]
+	#You, your dragons and your other tames can't hurt each other (your own swings included).
+	protectOwn = true
+	#Your group and your allies' groups can't hurt each other.
+	protectAllies = true
+
+[summon]
+	#Like the whistle: calling from the bond menu needs the Overworld and open sky.
+	needsSky = true
+	# Default: 100
+	# Range: 0 ~ 72000
+	cooldownTicks = 100
+
+#Releasing a dragon from the bond menu gives trainer XP by its bond (release_xp in the trainer datapack).
+[release]
+	#The dragon must be loaded in the world; 0 = anywhere, otherwise within this many blocks of you.
+	# Default: 0.0
+	# Range: 0.0 ~ 1024.0
+	radius = 0.0
+
+#Breeding between tamed dragons. Turn it on per dragon in the bond menu, then feed it its favourite food:
+#it comes into season and lays a Book of Dragons egg with the nearest in-season dragon of its species, whoever owns it.
+[breeding]
+	enabled = true
+	#Bond level a dragon needs with its owner before it can breed.
+	# Default: 5
+	# Range: 0 ~ 1000
+	minBond = 5
+	#How long a dragon stays in season after its favourite food.
+	# Default: 1200
+	# Range: 20 ~ 72000
+	seasonTicks = 1200
+	#Wait after breeding before either parent can breed again (12000 = 10 minutes).
+	# Default: 12000
+	# Range: 0 ~ 1728000
+	cooldownTicks = 12000
+	#How close two in-season dragons must be to pair up. They're walked toward each other from twice this.
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	range = 8.0
+	#Personality is inherited as the parents' average plus random variation of up to this much per trait (0-1 scale).
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	temperamentVariation = 0.1
+	#Per trait, the chance of a bigger leap away from the parents' average, up or down at random,
+	#so standout offspring can be selected and bred on.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	temperamentLeapChance = 0.15
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	temperamentLeap = 0.2
+	#Per trait, when the parents' average is extreme (beyond 0.2 or 0.8), the chance the child
+	#lands halfway back toward the middle instead.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	temperamentRegressionChance = 0.25
+	#Per stat (CON/ATH/AGI/PRW/POT/VIG), the chance one of the child's inherited alleles shifts one
+	#step better or worse (50/50), so stats can be bred up selectively.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	statShiftChance = 0.3
+	#Per stat, when both parents carry extreme alleles (average 1-2.5 or 8.5-10), the chance the
+	#child's more extreme allele moves 1-3 steps back toward the middle.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	statRegressionChance = 0.25
+	#Offspring inherit only what their parents carry: no random mutation, and each colour
+	#and pattern region gets one of each parent's own palettes/patterns, the more common tier dominating.
+	#Off = FAUNA's own crossover (palettes drawn near the parents' from the species pool, with mutation).
+	strictInheritance = true
+	#Eggs with hatching conditions first warm up (the conditions must hold for a while):
+	#this share of Book of Dragons' warming time (60 s). 0.111 = 1/9, about 7 s.
+	# Default: 0.111
+	# Range: 0.01 ~ 10.0
+	warmingTimeShare = 0.111
+	#Then the incubation countdown: this share of the species' hatch_ticks (data/<ns>/dragonbond/eggs).
+	#0.111 = 1/9. Applied when an egg is laid; eggs already incubating keep their time.
+	# Default: 0.111
+	# Range: 0.01 ~ 10.0
+	hatchTimeShare = 0.111
+	#Show a countdown above eggs (or what an egg is still waiting for).
+	showEggTimer = true
+	#Chance a pairing lays two eggs instead of one, before the species' clutch_chance and bond.
+	#Like a chicken egg's 1-in-8 chance to hatch more than one chick.
+	# Default: 0.125
+	# Range: 0.0 ~ 1.0
+	twoEggChance = 0.125
+	#Chance of three eggs (1 in 32), scaled the same way.
+	# Default: 0.03125
+	# Range: 0.0 ~ 1.0
+	threeEggChance = 0.03125
+	#Each bond level (the parents' average) raises both clutch chances by this share: 0.02 = +2%.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	clutchBondPerLevel = 0.02
+	#The most bond can raise clutch chances by: 1.0 = up to double.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	clutchBondMax = 1.0
+
+#Hatchlings. Book of Dragons no longer has growth stages, so Dragon Bond grows young dragons itself: they are
+#drawn and sized from hatchlingScale up to full size, can't be ridden and can't breed until grown.
+[hatchlings]
+	#A fresh hatchling's size relative to an adult.
+	# Default: 0.25
+	# Range: 0.05 ~ 1.0
+	hatchlingScale = 0.25
+	#How long a hatchling takes to grow up on its own (72000 = 1 hour); meals speed it up.
+	# Default: 72000
+	# Range: 20 ~ 100000000
+	growTicks = 72000
+	#Bred dragons and their parents, children and siblings meet as packmates and stay at least
+	#this fond of each other (FAUNA liking, 0-1). They never attack each other except in self-defence.
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	familyLike = 0.85
+	#Growth each meal gives a young dragon, in ticks of its growTicks.
+	# Default: 1800
+	# Range: 0 ~ 72000
+	feedGrowthTicks = 1800
+	#Its favourite food counts this many times over.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	favoriteGrowthMultiplier = 2.0
+	#A dragon raised from an egg by people is held at least this fond of its owner and their allies (FAUNA liking, 0-1).
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	raisedLike = 0.6
+
+#FAUNA Engine treats a wild dragon as trapped when it can't get far from where it stands, and then it
+#claws at the walls, sours on everyone nearby and can't be courted. Its check also trips on cliff ledges,
+#steep slopes and caverns, so Dragon Bond re-checks every trapped verdict against these rules.
+[confinement]
+	#Let natural terrain alone trap a dragon. Off = a pocket only holds a dragon if its walls or roof
+	#include built blocks (anything not in the dragonbond:natural_terrain block tag).
+	naturalTerrainTraps = false
+	#How many built blocks a pocket's walls and roof need before it counts as a pen.
+	# Default: 6
+	# Range: 1 ~ 100000
+	minBuiltBlocks = 6
+	#A dragon that can fly is never trapped where it can see open sky, even if it can't take off
+	#this moment (asleep, resting, on a slope too steep to launch from). Open-topped pens don't hold flyers.
+	openSkyFreesFlyers = true
+
+#How many relationships a dragon holds, and how they fade. Applies to every FAUNA dragon, wild or tamed. FAUNA keeps
+#the ones it has seen lately in a recent book; once that is over its size, familiar ones it hasn't seen for a while move
+#to long-term memory and come back when it sees them again. Only relationships it hasn't seen for a few days fade.
+#Locked relationships (bond menu, Relationships tab) never fade, move or get removed.
+[relationships]
+	#Size of the recent book. 0 = FAUNA's own (32, or its fauna/memory.json).
+	# Default: 0
+	# Range: 0 ~ 1024
+	maxRelationships = 0
+	#Size of long-term memory. 0 = FAUNA's own (100, or its fauna/memory.json).
+	# Default: 0
+	# Range: 0 ~ 4096
+	rememberedRelationships = 0
+	#Share of liking, fear and anger lost per in-game day by a relationship the dragon hasn't seen for a
+	#while. Liking of 0.5 or more doesn't fade. -1 = FAUNA's own rates. 0 = nothing fades or is forgotten.
+	# Default: -1.0
+	# Range: -1.0 ~ 1.0
+	fadePerDay = -1.0
+	#Share of a strong dislike (liking of -0.5 or less) lost per in-game day. -1 = FAUNA's own rate.
+	# Default: -1.0
+	# Range: -1.0 ~ 1.0
+	grudgeFadePerDay = -1.0
+
+#The tame tracker in the bond menu: wild dragons you have started courting.
+[tameTracker]
+	#Wild dragons kept per player. The oldest unlocked one goes when it's full.
+	# Default: 20
+	# Range: 1 ~ 200
+	maxTracked = 20
+	#A dragon locked in the tracker doesn't despawn.
+	lockPreventsDespawn = true
+
+#Shape of the diminishing returns past an open-ended soft cap: cap + k * ln(1 + excess / k), k = cap * softness.
+#Higher softness = gentler falloff.
+[diminishingReturns]
+	# Default: 1.0
+	# Range: 0.05 ~ 100.0
+	softness = 1.0
+
+#Internal: lets Dragon Bond move an existing config to new default values once. Don't edit.
+[meta]
+	# Default: 0
+	# Range: 0 ~ 1000
+	defaultsVersion = 4
+
+[feedback]
+	#Tell players when they or their dragons level up.
+	announceLevels = true

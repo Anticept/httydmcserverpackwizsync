@@ -1,0 +1,13 @@
+name = "Advancements+"
+filename = "advancements+-0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dzG7pw5M/versions/PHjhMQGH/advancements%2B-0.4.jar"
+hash-format = "sha512"
+hash = "8152c685b3df1477d3913f2f999206041c4aa4290dd278ecea80b52ac1d95d7ac3cdd1fbf3c2817d72a4fc1429db9627ac9a5e66b45ccf81ee3eb55bbcb1d94c"
+
+[update]
+[update.modrinth]
+mod-id = "dzG7pw5M"
+version = "PHjhMQGH"

@@ -1,0 +1,13 @@
+name = "World Dimension Nexus"
+filename = "world_dimension_nexus-neoforge-1.21.1-0.11.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "95650747e79f77637931caf1ea92c8d43893e1b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6841056
+project-id = 1278368

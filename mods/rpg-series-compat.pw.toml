@@ -1,0 +1,13 @@
+name = "RPG Series Compat"
+filename = "rpgseriescompat1.21.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f880cbd66d1525be72c0939d495cb71fe2a56e87"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9208412
+project-id = 1746006

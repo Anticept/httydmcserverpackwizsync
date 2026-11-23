@@ -1,0 +1,13 @@
+name = "Druids (RPG Series Plus)"
+filename = "druids-neoforge-1.4+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e509bba032e828d61103e15c2b77ea93580d8fc4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9326305
+project-id = 1351037

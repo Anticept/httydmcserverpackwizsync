@@ -1,0 +1,13 @@
+name = "Healthify - Health Bars & Damage Numbers"
+filename = "healthify-neoforge-1.5.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13f79aee09cb020a7ad8e410e8cdeb6216114b52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9640447
+project-id = 1775831

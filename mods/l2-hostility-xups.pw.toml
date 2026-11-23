@@ -1,0 +1,13 @@
+name = "L2 Hostility Xups"
+filename = "L2HostilityXups-1.0.4+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "adc41d61545971f4af041303f0307da38371bc52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8507087
+project-id = 1389149

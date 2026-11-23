@@ -1,0 +1,13 @@
+name = "Enchant Limiter (RPG Tweaks)"
+filename = "enchant_limiter-neoforge-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e86befca122e5c66cd4dcbdb8e00f316caa32b7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7152638
+project-id = 1235635

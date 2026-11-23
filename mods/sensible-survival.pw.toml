@@ -1,0 +1,13 @@
+name = "Sensible Survival (RPG Tweaks)"
+filename = "sensible_survival-neoforge-1.1.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "596d48914929da48a07abc9240aed792430a4739"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8974842
+project-id = 1266889

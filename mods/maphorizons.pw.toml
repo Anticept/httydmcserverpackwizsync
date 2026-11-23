@@ -1,0 +1,13 @@
+name = "MapHorizons | Distant Horizons on Xaero's Maps"
+filename = "maphorizons-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "90944a88c694a8528352491f2b57d20d6dfd4de6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9303571
+project-id = 1761933

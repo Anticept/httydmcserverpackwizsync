@@ -1,0 +1,13 @@
+name = "Infernos - HTTYD"
+filename = "inferno-1.7.4.4-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b9b7c953d1f76494b2a547be94c4a55e8f124b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9663706
+project-id = 652877

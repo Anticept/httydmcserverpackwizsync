@@ -1,0 +1,13 @@
+name = "Chunk Editor - MCA-Selector"
+filename = "chunk-editor-neoforge-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1dab6d572e002c8577465710c97b063123a399ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9026784
+project-id = 1647444

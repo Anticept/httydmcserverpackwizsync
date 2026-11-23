@@ -1,0 +1,13 @@
+name = "Hunger Tweaks (RPG Tweaks)"
+filename = "hunger_tweaks-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7efe4a027fba76cdf00f26d0230b3591c96578d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6836306
+project-id = 1266883

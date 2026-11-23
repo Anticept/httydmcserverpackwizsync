@@ -1,0 +1,13 @@
+name = "Immersive Gateways"
+filename = "immersive_gateways-neoforge-0.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "98ce93d2723b64fb7774e9a341239898bcd7f5e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8852736
+project-id = 1307924

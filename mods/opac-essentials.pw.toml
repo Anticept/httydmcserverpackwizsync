@@ -1,0 +1,13 @@
+name = "Open Parties and Claims - Essentials"
+filename = "opac_essentials-2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5797746bca879a9fda74d95cb0d3a34586dccdfe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9374211
+project-id = 1635645
