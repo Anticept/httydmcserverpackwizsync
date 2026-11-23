@@ -736,10 +736,6 @@ hash = "20fb36eebeb21c9c94746da542234dda7af5d438dcecd1957b32d925d02b622e"
 preserve = true
 
 [[files]]
-file = "config/tectonic.json"
-hash = "aabf4e8a1f1e425415c75d99860d38c3a400c796657bff2f34521e6a4e32a31d"
-
-[[files]]
 file = "config/tools_on_my_back.json5"
 hash = "d2bac819e177471c2de6b1aba4b604d49055bc3677ec02b1d0e358a7e5d9889b"
 
@@ -1208,11 +1204,6 @@ metafile = true
 [[files]]
 file = "mods/diegesis.pw.toml"
 hash = "4281f48cf4c9a29cc2cc1f5cac1318a9674d4463b5bdb8917eee9b5acaf10ef0"
-metafile = true
-
-[[files]]
-file = "mods/distant-horizons-seedgen.pw.toml"
-hash = "7b684fef82d0e9ef75e3b9daa46ec19b9ba94be8c462769b256089b345b88e81"
 metafile = true
 
 [[files]]
