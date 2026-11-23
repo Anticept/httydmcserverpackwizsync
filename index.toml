@@ -1078,6 +1078,11 @@ hash = "4696bddb459f4dade3c1be79d05e53566a975ae675d2e80a6e2760edbe223a45"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "fc8954e0d3fa66b917d2c84ee04d07b073a9eb6f719d09e1ff85527c1d61a10e"
+metafile = true
+
+[[files]]
 file = "mods/basicweapons.pw.toml"
 hash = "380c8d509721f5130e1f589bafc64fefe51beec2f246cafb9c759c2d1346184d"
 metafile = true
@@ -1983,6 +1988,11 @@ metafile = true
 [[files]]
 file = "mods/vonixguardian-neoforge-1.21.1-2.3.2.jar"
 hash = "206bc3b53b6ed815bfd394587c9b1d8bd02008a51003eb157345cf52787dd91c"
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "870219130f6ab3005d0ed77ff73070074bd2780f09ef67f57d5d9a2199b40e9f"
+metafile = true
 
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
