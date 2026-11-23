@@ -1961,8 +1961,8 @@ hash = "9c1c1d0d4460e3bb0179c79445209039675519082faf7f286625ce0d311eda52"
 metafile = true
 
 [[files]]
-file = "mods/vonixguardian-neoforge-26.1.2-2.1.2.jar"
-hash = "d22c83a73c2922293eabfc69d8bc30432ef3d6784ac8f176ae0134ee371bb123"
+file = "mods/vonixguardian-neoforge-1.21.1-2.3.2.jar"
+hash = "206bc3b53b6ed815bfd394587c9b1d8bd02008a51003eb157345cf52787dd91c"
 
 [[files]]
 file = "mods/william-wythers-overhauled-overworld.pw.toml"
