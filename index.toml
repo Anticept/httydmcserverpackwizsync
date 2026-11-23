@@ -9,10 +9,6 @@ file = "BODGeneticsPacks/anbus_markings.zip"
 hash = "55db32e7056780c2a26f4476cf52db5b9b458e848cd53d3d895735ec9ea3398f"
 
 [[files]]
-file = "README.md"
-hash = "d4143723b6030758ad6e4c61ca169a48afebbfc72580c1686f2825381b2db4a6"
-
-[[files]]
 file = "config/Inferno.toml"
 hash = "e9d4779ebfc38ecdbca8eec76c60bdf979a1d0490187d71a22184689f2097dd1"
 
@@ -83,22 +79,15 @@ hash = "0262b3192a9d2c4d5c8aa693aa442563a193c901a374afc22fc9440867343753"
 [[files]]
 file = "config/betterzoom-client.toml"
 hash = "485fd524f54f4194835e47d4a598caab2e7cb1f489ef93d617ae7ba3655470e4"
+preserve = true
 
 [[files]]
 file = "config/bhmenu-client.toml"
 hash = "5cd25ce180d5e54450d543aea56b1983b8649b9dbf72a845d96517a3264b11e4"
 
 [[files]]
-file = "config/bookofdragons-client-1.toml.bak"
-hash = "ac1b33c74bfe6804dd260e55af82f7ef6a320df5545edd9cb3e68bc5cc97f04b"
-
-[[files]]
 file = "config/bookofdragons-client.toml"
 hash = "ba9928e693bae35bc7c2d547def5759afbd2ae50522c327c517b8866272ec57c"
-
-[[files]]
-file = "config/bookofdragons-common-1.toml.bak"
-hash = "ccfa42ffd6deb95f228ff9fe1ff45f1de505b1b670a93532b1b0f97b7e1a6d4d"
 
 [[files]]
 file = "config/bookofdragons-common.toml"
@@ -209,10 +198,6 @@ file = "config/ctov-common.toml"
 hash = "5522794f06ef3247060718a3613633be42b2fd8db056ed6c94845530dc136530"
 
 [[files]]
-file = "config/dragonbond-common-1.toml.bak"
-hash = "83ceac897368cb24a819b47fd7fbb0fb393e58de221dab38aceeca0025703415"
-
-[[files]]
 file = "config/dragonbond-common.toml"
 hash = "00288a5a9673c77976528dea7c63133e93b3e2834dcca84286d6c2c7ccf76506"
 
@@ -245,12 +230,9 @@ file = "config/entityculling.json"
 hash = "4a6d510b7e0157027b1cf2022184567fd5387aa09d08db108cb0369ba371ddbe"
 
 [[files]]
-file = "config/etf_warnings.json"
-hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
-
-[[files]]
 file = "config/fallingleaves-client.toml"
 hash = "6035430d2bebfaeaf7d3e04c3086b1f012a228a4f8c2b497445791dabfe30bf2"
+preserve = true
 
 [[files]]
 file = "config/fancymenu/assets/bg.png"
@@ -583,258 +565,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 [[files]]
 file = "config/iris.properties"
 hash = "97b5bb73c60dc7869cae643ba528ba6429b3f92140da60131f1749c253bce871"
-
-[[files]]
-file = "config/item-particles/cache/basicweapons/atlas.png"
-hash = "0d3276664a21b408b4aaaa92e61382060ada32c37f66c2c7a3dba8aeccfb833f"
-
-[[files]]
-file = "config/item-particles/cache/basicweapons/regions.txt"
-hash = "feae5c762b2c8f675631bf640e13c1b20364b41f458287cb27e254cff2bac1c9"
-
-[[files]]
-file = "config/item-particles/cache/basicweapons/spawn_areas.cached"
-hash = "241164ff44b55627537cede490a4def6251d2868fddee44317871e93d0af808f"
-
-[[files]]
-file = "config/item-particles/cache/bookofdragons/atlas.png"
-hash = "28a24b30b043be2e983ec70a35dde18d701ee34cfe5febffdc3b9e081ff6365c"
-
-[[files]]
-file = "config/item-particles/cache/bookofdragons/regions.txt"
-hash = "1d61ca9ea0f36ec04086a37c88d2bfb49e5c179cfda93f37cc4c939aebd6e618"
-
-[[files]]
-file = "config/item-particles/cache/bookofdragons/spawn_areas.cached"
-hash = "00f7cc5e31f676ecf260d5e6135cc997f07dbee02dd5d3d09ea3c7a2a2f4dfce"
-
-[[files]]
-file = "config/item-particles/cache/chipped/atlas.png"
-hash = "5cec1f7f2cb6ca1329f9a7610796454cdf6fb633095d338ecf437fe66ed56b38"
-
-[[files]]
-file = "config/item-particles/cache/chipped/regions.txt"
-hash = "20cb978f9b7917a3f362ea6c353126bfa64c058cd932185137fb1a5736356998"
-
-[[files]]
-file = "config/item-particles/cache/chipped/spawn_areas.cached"
-hash = "df9f37740d29b4043c6be33b3cb0f9bef6ec884dd6790a1d031d258d1da725ba"
-
-[[files]]
-file = "config/item-particles/cache/crabbersdelight/atlas.png"
-hash = "1b18e62012449b138dd60230999e1fd1d0114ba753cb04b1707fab7ef2b633b4"
-
-[[files]]
-file = "config/item-particles/cache/crabbersdelight/regions.txt"
-hash = "8e32a852c11a82242f807bc8ad4b67e7b4d508ff1c4625caace23029e792b774"
-
-[[files]]
-file = "config/item-particles/cache/crabbersdelight/spawn_areas.cached"
-hash = "2c32de1e6d5fd4a26156544913eb5cb1cfbb645c4d578c22a14bbdb25b4faf32"
-
-[[files]]
-file = "config/item-particles/cache/cratedelight/atlas.png"
-hash = "303fbdb091fc745c145f5083422b10aa9eac3b04589bfc2a8c6d35a5102cd04c"
-
-[[files]]
-file = "config/item-particles/cache/cratedelight/regions.txt"
-hash = "b9d3422903551420e1890d67aa6a32928c0e75383024c4170b1e7ba539018ec9"
-
-[[files]]
-file = "config/item-particles/cache/cratedelight/spawn_areas.cached"
-hash = "18e63c4e43c3407daf2205c260bc0a1b759a8cd5384fd2221392924cd9279bd6"
-
-[[files]]
-file = "config/item-particles/cache/dragonbond/atlas.png"
-hash = "c926ec4dc3fccabfdfe99ebc2a28fcbdb1d39888667a7676012e475eec395731"
-
-[[files]]
-file = "config/item-particles/cache/dragonbond/regions.txt"
-hash = "978d6a2e7ab1ec77bb469bddcd1408c2e3b7d5575067ff7c1b070fc4e2c394f5"
-
-[[files]]
-file = "config/item-particles/cache/dragonbond/spawn_areas.cached"
-hash = "457f1006d7b32cac13bdd96b4270022c6e6732b6411f718ba1a29cd46af9492c"
-
-[[files]]
-file = "config/item-particles/cache/farmersdelight/atlas.png"
-hash = "9f3137fd65826e6dbccd06103f8ef29a2fecd39d67808d507757d41f2f66926f"
-
-[[files]]
-file = "config/item-particles/cache/farmersdelight/regions.txt"
-hash = "dcb8c719dad538f9fa93af3998de7494fa54ca2d540f7c5ee4da1e4c16fc8d32"
-
-[[files]]
-file = "config/item-particles/cache/farmersdelight/spawn_areas.cached"
-hash = "8833734b2001496db61102a1472cd9bf9533595f18396d99df013601f1d5d10b"
-
-[[files]]
-file = "config/item-particles/cache/handcrafted/atlas.png"
-hash = "6057e7fdb5e0cbbab829494ffc7ac93a9a0ed28ac59503062746de196e684f0b"
-
-[[files]]
-file = "config/item-particles/cache/handcrafted/regions.txt"
-hash = "653b3cd675056b2765a1227f05e6e8f68c9bee9d82b09ed486e261390ca4fff6"
-
-[[files]]
-file = "config/item-particles/cache/handcrafted/spawn_areas.cached"
-hash = "bf4d49fd09ac107c6a3582cf815a1c62edba9008956105a4b476748cbfe913e4"
-
-[[files]]
-file = "config/item-particles/cache/immersive_armors/atlas.png"
-hash = "13e6f53d04d5b394e1a42caabd68779bc4d0063ee2f95eaa3a8568eb1be5f652"
-
-[[files]]
-file = "config/item-particles/cache/immersive_armors/regions.txt"
-hash = "e9a88251ffdb69c273b2df2e3d2ed58d934f58fc4a227462742b78436b6429c6"
-
-[[files]]
-file = "config/item-particles/cache/immersive_armors/spawn_areas.cached"
-hash = "bd1821398c7e052750e09519745f6b7cacbc8376b7be594717e1f15d063bdaf2"
-
-[[files]]
-file = "config/item-particles/cache/immersive_gateways/atlas.png"
-hash = "ad38468ecbd1c443cbef65c26136751bb6527d32e16b25798a5381f3a7645fde"
-
-[[files]]
-file = "config/item-particles/cache/immersive_gateways/regions.txt"
-hash = "4f0e29d2ff72ca8d564ad216b5f811052e9380189fceb74fa9645415e25cec4b"
-
-[[files]]
-file = "config/item-particles/cache/immersive_gateways/spawn_areas.cached"
-hash = "8247fb83f752c59b59fd7d7d25bd932c1eacf71341322f53ec414f6661b03e37"
-
-[[files]]
-file = "config/item-particles/cache/inferno/atlas.png"
-hash = "d77d3c23a0bb30ac98d877f634c58a80f33649170eca6198cd01515defe40245"
-
-[[files]]
-file = "config/item-particles/cache/inferno/regions.txt"
-hash = "6b49141f35646e0c21e9177f25ea85f79d1ec13b5639dcb36cfea1511c4c0af4"
-
-[[files]]
-file = "config/item-particles/cache/inferno/spawn_areas.cached"
-hash = "8bcf3e271862b83c3c82203de90aa51c59eb05ccdb9d26cd6809b3593285731d"
-
-[[files]]
-file = "config/item-particles/cache/mcwbridges/atlas.png"
-hash = "75b3c45126f1fdf5d7c02ca477ba722d84c8af400832e9469dee801293d2e984"
-
-[[files]]
-file = "config/item-particles/cache/mcwbridges/regions.txt"
-hash = "79d8b65152cb6f42db2d72e00491a5c87914d63893a289ca9926c1c9d7c55dc2"
-
-[[files]]
-file = "config/item-particles/cache/mcwbridges/spawn_areas.cached"
-hash = "abad0c5c76d12c8f35f52f88e501a2b7cede8079d1e64be8d09c97ca0584eb66"
-
-[[files]]
-file = "config/item-particles/cache/mcwfences/atlas.png"
-hash = "ac7639ea8e0762fb005e3b4d0713615fcc643c848a8b456e46a216b237d25cd9"
-
-[[files]]
-file = "config/item-particles/cache/mcwfences/regions.txt"
-hash = "0293ad362efe34abee2b52d18acb38e96fe18d0c6bf4ba0098254963146d7731"
-
-[[files]]
-file = "config/item-particles/cache/mcwfences/spawn_areas.cached"
-hash = "f98d5501586425f8fb5e6d6e68abac089e78c361ec3b732b8387714b52b20469"
-
-[[files]]
-file = "config/item-particles/cache/mcwpaths/atlas.png"
-hash = "430f74c4cb4132500eb8a92f8aa12626945633874e798a4985c71f699322e1d9"
-
-[[files]]
-file = "config/item-particles/cache/mcwpaths/regions.txt"
-hash = "e57496fb4be670356428b211db223090445353ff87babc71800b73c0cd443f39"
-
-[[files]]
-file = "config/item-particles/cache/mcwpaths/spawn_areas.cached"
-hash = "326c8de1f52eca7b4a6fc21d5d43e06338ede861be8ead3986ca6798759ef4f4"
-
-[[files]]
-file = "config/item-particles/cache/mcwroofs/atlas.png"
-hash = "959b5fb8ec33a033c1af4a56263d5d0e440e913aecc9268d966895a77904a6fb"
-
-[[files]]
-file = "config/item-particles/cache/mcwroofs/regions.txt"
-hash = "db1b5fe893d2432fdc32e9fd882b33309c4b3919ab1d07c5c683cf0fcaa16324"
-
-[[files]]
-file = "config/item-particles/cache/mcwroofs/spawn_areas.cached"
-hash = "33cb7e368270b372ab9a5ab12c44dae5e68d56164dcfe9e0bdc008322e647d0f"
-
-[[files]]
-file = "config/item-particles/cache/mcwstairs/atlas.png"
-hash = "74695f2926139714a71f7555ef2f0e54bbdc90fb48c17a10f3e79a527c444254"
-
-[[files]]
-file = "config/item-particles/cache/mcwstairs/regions.txt"
-hash = "e627841c030276de82026a2b39c3ba6a0ad735d65c57bf075480848ebd632b0e"
-
-[[files]]
-file = "config/item-particles/cache/mcwstairs/spawn_areas.cached"
-hash = "785977b932ce06f9d4c740e9ef3401b3775b449965aec21ab0fd5c683c0da240"
-
-[[files]]
-file = "config/item-particles/cache/mcwwindows/atlas.png"
-hash = "5458c8a0a0647ea57bb20e4c20d20a64522b2de12593424bbd9764bfb89aa194"
-
-[[files]]
-file = "config/item-particles/cache/mcwwindows/regions.txt"
-hash = "2720a56e69dade69b63e8c3536f646911a03fc38eac4a2a2bde329f3647381db"
-
-[[files]]
-file = "config/item-particles/cache/mcwwindows/spawn_areas.cached"
-hash = "4cfbc77765b24187c98e868083760cb5ae2ad1baeebdb488931ed0679b34f501"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedbackpacks/atlas.png"
-hash = "e99c4a44b23c49c253d96e0e2ccba8b8d728b22e4b3bc66933a8585fa6b98195"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedbackpacks/regions.txt"
-hash = "843e66b7f4d7ed341458915a9516dd81d1baabbe0d781448eea669cc083ca024"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedbackpacks/spawn_areas.cached"
-hash = "ab6bc69298c1b264c62bdeffc7b9cb6634bad0266c4367196ef507467e36e7a5"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedcore/atlas.png"
-hash = "791fc92f3378056bee47b1e479c20e5767c4e1078cbaf44da9bcfa5918215997"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedcore/regions.txt"
-hash = "c07b43ada0ac9548942ebc9f83343c2295803140698a15c460bfb093f073c606"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedcore/spawn_areas.cached"
-hash = "0dea26d095ca947341098b6daf19da4d576c1233766ec75b770d3a7144569a85"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedstorage/atlas.png"
-hash = "fd47bb6a81a6f28afe8bffa61ee9b3db34d8107c1a87ed453ebdefc2e0204750"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedstorage/regions.txt"
-hash = "7ba17a99d7cd39002863925ef0a8f46be5abdf4beea426e42061beb95620d739"
-
-[[files]]
-file = "config/item-particles/cache/sophisticatedstorage/spawn_areas.cached"
-hash = "25b883d7d17fea4b3ee96f945701d6faba508e6e451e0bc1651e9f264479006d"
-
-[[files]]
-file = "config/item-particles/cache/unusualfishmod/atlas.png"
-hash = "64b316dd6eb01084ae254a674ccbb272ba4920b8ba12e700c8ab57cfcc0d5918"
-
-[[files]]
-file = "config/item-particles/cache/unusualfishmod/regions.txt"
-hash = "562e34d3e5e58006311cdf10fb0edb58dc561a2c812fee848b56867bce490e86"
-
-[[files]]
-file = "config/item-particles/cache/unusualfishmod/spawn_areas.cached"
-hash = "1aca4974639f0f82df5187c64bff7009f5ba371ec8be26ac9f48707d91616b63"
+preserve = true
 
 [[files]]
 file = "config/item_particles.json5"
@@ -911,6 +642,7 @@ hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
 [[files]]
 file = "config/particlerain/config.json"
 hash = "f1c49e7af4604001394994b16139cff2523f95539830f3ba9464c198e404456c"
+preserve = true
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
@@ -983,14 +715,11 @@ hash = "63ba7034fdf1f45f1b40798d3212f8d838f7c299fbe5795075fbafe1e2265192"
 [[files]]
 file = "config/sodium-extra-options.json"
 hash = "3e45258c3103e16f128a11f421bdd00745ec74c017aa8f60e0610efd6f5f0dbf"
+preserve = true
 
 [[files]]
 file = "config/sodium-extra.properties"
 hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
-
-[[files]]
-file = "config/sodium-fingerprint.json"
-hash = "ec4dafde67122b9bc945cebef8cad594b19d0914cd8df96a2f90b993d6e6f37c"
 
 [[files]]
 file = "config/sodium-mixins.properties"
@@ -999,6 +728,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 [[files]]
 file = "config/sodium-options.json"
 hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
+preserve = true
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
@@ -1025,20 +755,8 @@ file = "config/sophisticatedstorage-client.toml"
 hash = "45923fce3aebf26b0932687f1f06048fca5f716a865e98edf6066f5f2e99ec30"
 
 [[files]]
-file = "config/sophisticatedstorage-common-1.toml.bak"
-hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
-
-[[files]]
 file = "config/sophisticatedstorage-common.toml"
 hash = "eb331790fc7ad942fc9b60e0039b6fe7f612e07c61a3ef810e99f15c769c9f1b"
-
-[[files]]
-file = "config/sophisticatedstorage-server-1.toml.bak"
-hash = "d9bb742b38e6eafc9b439f8d8e8edd7f9fc29bfa6655100549405d66842460cf"
-
-[[files]]
-file = "config/sophisticatedstorage-server-2.toml.bak"
-hash = "f88632fefa36ce5eb3c411a5167a1c0c90749bba9fc1714c8956b46aad86bb78"
 
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
@@ -1047,22 +765,27 @@ hash = "e236d68ffde19950557177ffb65bfdddf2b2ba5b4f0e274829d489a1728c1f3d"
 [[files]]
 file = "config/subtle_effects/blocks.toml"
 hash = "0ec5420007790bf721b84e4dc9e548b18fd6ca860e712ae65c877360a1681f10"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
 hash = "213479a3849d344309a756e2c099eda45dc121062ed4a4aaa10becc73ffa0e6f"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
 hash = "c9590ef4b1d42e6c7b5dc6feb83450f5aeabc562e9d3af68291b4c8af2e89841"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/general.toml"
 hash = "74bd8b71e20adc84cd23cdd59d6b239c8b19ebcabe99f9725ea098bb65f0c87f"
+preserve = true
 
 [[files]]
 file = "config/subtle_effects/items.toml"
 hash = "20fb36eebeb21c9c94746da542234dda7af5d438dcecd1957b32d925d02b622e"
+preserve = true
 
 [[files]]
 file = "config/tools_on_my_back.json5"
@@ -1095,38 +818,47 @@ hash = "a50b4ca77d21ae105e68560c1af694125ea06360374c82e87f4da54b7ecfa51d"
 [[files]]
 file = "config/waila/blacklist.json5"
 hash = "201c132595425b9817f8ea2efe6d5772f96b7059a7cda9f6d2d81f8ea6a8b85b"
+preserve = true
 
 [[files]]
 file = "config/waila/debug.json5"
 hash = "e54d2423726125dd300297ea935fbfd82cf7c374fbd4ee2d85b7ba140e3ba97a"
+preserve = true
 
 [[files]]
 file = "config/waila/extra/energy_blacklist.json5"
 hash = "e8243ffac9e64e2b025195ebfc4b1acafb98e5e89c0167e673470d65d4c31810"
+preserve = true
 
 [[files]]
 file = "config/waila/extra/fluid_blacklist.json5"
 hash = "278e964061848df94ac89d7610987afe3d008f1ca5fe6119410dc2e07a2aca10"
+preserve = true
 
 [[files]]
 file = "config/waila/extra/item_blacklist.json5"
 hash = "9ef0b7479c81e1a941eaa44fcdc571bdf9cb3ddb3d234a64f3dff0a8ccbda41e"
+preserve = true
 
 [[files]]
 file = "config/waila/extra/progress_blacklist.json5"
 hash = "b8f09c52b1a975dc1f0ba65c7f4b6757dfc1bc784b87e0530046adaacbadcec4"
+preserve = true
 
 [[files]]
 file = "config/waila/plugin_toggle.json5"
 hash = "a44e3e5a6c17b7d9422d8577ac78a51915a44f315778d3e8fb1fad1b4d1ee7a8"
+preserve = true
 
 [[files]]
 file = "config/waila/waila.json5"
 hash = "dcbf9374bddca92ca358dd5e0f6a3da1d20b2469480f3ac0cb32565c71fe71f4"
+preserve = true
 
 [[files]]
 file = "config/waila/waila_plugins.json5"
 hash = "ccc574615587c5d790a0dea31180693953bff58e40bfbc7f363e8be2bccf5dfc"
+preserve = true
 
 [[files]]
 file = "config/wwoo/config.json5"
@@ -1135,74 +867,87 @@ hash = "dfa7452700005bcfd764bbb793128533a24083adc9a29bdd4df70ff8b65c3a1e"
 [[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+preserve = true
 
 [[files]]
 file = "config/xaero/lib/common.cfg"
 hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+preserve = true
 
 [[files]]
 file = "config/xaero/lib/profiles/default.cfg"
 hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+preserve = true
 
 [[files]]
 file = "config/xaero/lib/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
 hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/common.cfg"
 hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/default_radar_categories_client.json"
 hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/default_radar_categories_server.json"
 hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
 hash = "68c15559cb9e2a55f0974aef688247be4c55767928d6b81025ba4a17497d7dec"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
 hash = "33dbad0dfa3a2dc8d7c263cc1e6c5d3922e133c010488f493b53098b4f668943"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
 hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+preserve = true
 
 [[files]]
 file = "config/xaero/minimap/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
 
 [[files]]
 file = "config/xaero/world-map/client.cfg"
 hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+preserve = true
 
 [[files]]
 file = "config/xaero/world-map/common.cfg"
 hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+preserve = true
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
 hash = "5a0ce3ed4abd3c692291d13a07a9ec8b919c9bf1c656d3d9229696ae78419cf6"
+preserve = true
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
 hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+preserve = true
 
 [[files]]
 file = "config/xaerohud.txt"
 hash = "1fb89ac62382c2b2c7bc561c9845d509f99dd119075f51e6eb25de7d45c5ccb4"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+preserve = true
 
 [[files]]
 file = "config/yacl.json5"
@@ -1211,14 +956,6 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 [[files]]
 file = "config/zfastnoise.mixin.properties"
 hash = "d3186d2a14f2dca3d79dfce307a6b32dd590cfae34e0c57c82def8a6fc987314"
-
-[[files]]
-file = "gitattributes"
-hash = "f1c49afdbf5c184940b9d1b0dcb6e070c8ca915a36d6c2b7f5a4c641e1080aea"
-
-[[files]]
-file = "gitignore"
-hash = "eb49facfdd2488fd2fa583f1bce654899ce74b6c92621a42fc38facd62a9da31"
 
 [[files]]
 file = "mods/adaptive-performance-tweaks.pw.toml"
@@ -2329,7 +2066,3 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "4652700ee06b6435101176e2b633dfdddb46fc16cbdc376417e4e00ad26468f6"
 metafile = true
-
-[[files]]
-file = "packwizignore"
-hash = "7adfaf00b7a3df0ded9e78c38675aef1e2f941a6d14b1b72ad57300534a06a7d"
