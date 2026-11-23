@@ -1978,11 +1978,6 @@ hash = "870219130f6ab3005d0ed77ff73070074bd2780f09ef67f57d5d9a2199b40e9f"
 metafile = true
 
 [[files]]
-file = "mods/william-wythers-overhauled-overworld.pw.toml"
-hash = "1b3e9b77f6afefbe73a13382fb098799159e0088b42702854385d372b2c45abd"
-metafile = true
-
-[[files]]
 file = "mods/wizards.pw.toml"
 hash = "37eaf697e77db2ddac78184ca743a7876e60ea2c11c886baa128e56192dce994"
 metafile = true
