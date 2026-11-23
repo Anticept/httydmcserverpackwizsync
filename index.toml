@@ -736,6 +736,10 @@ hash = "20fb36eebeb21c9c94746da542234dda7af5d438dcecd1957b32d925d02b622e"
 preserve = true
 
 [[files]]
+file = "config/tectonic.json"
+hash = "aabf4e8a1f1e425415c75d99860d38c3a400c796657bff2f34521e6a4e32a31d"
+
+[[files]]
 file = "config/tools_on_my_back.json5"
 hash = "d2bac819e177471c2de6b1aba4b604d49055bc3677ec02b1d0e358a7e5d9889b"
 
