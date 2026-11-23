@@ -958,6 +958,16 @@ file = "config/zfastnoise.mixin.properties"
 hash = "d3186d2a14f2dca3d79dfce307a6b32dd590cfae34e0c57c82def8a6fc987314"
 
 [[files]]
+file = "mods/accessories-to-curios.pw.toml"
+hash = "cbb88b86832be9ecd89488ddf500b3f68910c0953c7e5cbae10f49b4e71db642"
+metafile = true
+
+[[files]]
+file = "mods/accessories.pw.toml"
+hash = "ee096237cb56c7923b21340657cf9e041230875c837ff5ce02bf8e747dcccd7c"
+metafile = true
+
+[[files]]
 file = "mods/adaptive-performance-tweaks.pw.toml"
 hash = "7b26e5c4166a8858a39251c86d3eddaa167f193ae387109fb04ab3489920237b"
 metafile = true
@@ -1239,7 +1249,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "e622857e271e0ebd3d80f84f8230474d76f0150354cb06832deac2134448cbcb"
+hash = "982c4bedb0295d598d57cf92cf39abe81562c0f2142f5bc1f90a7e61bff71bb5"
 metafile = true
 
 [[files]]
