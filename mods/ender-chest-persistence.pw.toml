@@ -1,0 +1,13 @@
+name = "Ender Chest Persistence"
+filename = "enderchestpersistence-neoforge-0.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qxHuVhz8/versions/bgXudlac/enderchestpersistence-neoforge-0.7.0.jar"
+hash-format = "sha512"
+hash = "78be920719f0162e494fc90141fe87e3ad0be18c9500fa56c7230bdc1c3b74107872f1bac73736afcee7d4676adfb34cb7a6a591e96c50cafdd40fc26152e070"
+
+[update]
+[update.modrinth]
+mod-id = "qxHuVhz8"
+version = "bgXudlac"

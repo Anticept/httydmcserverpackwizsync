@@ -1307,6 +1307,11 @@ hash = "9435a9a4b5d86cae0918ed89df4ed81dc75b646c21c655e7d02ff1d6e4d5206c"
 metafile = true
 
 [[files]]
+file = "mods/ender-chest-persistence.pw.toml"
+hash = "5da29d2178dbf8a09d20c8824225675cccae6f6d9d6d80879d12502b8045e2eb"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "8b954d8baf312e42fbe5b324f966935201648d149a113474170892a7d4c160a6"
 metafile = true
