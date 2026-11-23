@@ -3,11 +3,11 @@ filename = "adaptive_performance_tweaks-neoforge-1.21.1-12.10.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "43876135dfa0301f0ae2f10400d4337ea1ab4cd9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/kLawTYXp/versions/j305BcJG/adaptive_performance_tweaks-neoforge-1.21.1-12.10.0.jar"
+hash-format = "sha512"
+hash = "4af03da80043aae63f8fc6105167a65fecb171746abfce63a76180f0c998869ee9e7f4839ef0ba14235969beb4f3e25173718961a58c6cabf213bba4d8e0cb75"
 
 [update]
-[update.curseforge]
-file-id = 9093063
-project-id = 450269
+[update.modrinth]
+mod-id = "kLawTYXp"
+version = "j305BcJG"

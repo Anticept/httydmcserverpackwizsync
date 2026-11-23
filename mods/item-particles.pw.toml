@@ -1,13 +1,13 @@
 name = "Item Particles"
-filename = "ItemParticles-1.2.0+1.21.1+neoforge.jar"
-side = "both"
+filename = "ItemParticles-2.0.1+1.21.1+neoforge.jar"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "a1542edfa48953efb0f5632baefbf9a5690cc471"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/dsnMvk2s/versions/IhxKeV39/ItemParticles-2.0.1%2B1.21.1%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "dd9d4fb74cf39d21ea264abd1c18cc36f39150413152620f56266f856563568571da75f02dd816334f15348c5d6d06b8a1be2a3d4c34851bb32a7d5c74e00a17"
 
 [update]
-[update.curseforge]
-file-id = 8948584
-project-id = 1677729
+[update.modrinth]
+mod-id = "dsnMvk2s"
+version = "IhxKeV39"

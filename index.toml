@@ -959,7 +959,7 @@ hash = "d3186d2a14f2dca3d79dfce307a6b32dd590cfae34e0c57c82def8a6fc987314"
 
 [[files]]
 file = "mods/adaptive-performance-tweaks.pw.toml"
-hash = "5f3b4671b9aede2f13aa979da483ed3191ac114f2356c2bc57f4d7c8591ab429"
+hash = "7b26e5c4166a8858a39251c86d3eddaa167f193ae387109fb04ab3489920237b"
 metafile = true
 
 [[files]]
@@ -993,13 +993,18 @@ hash = "5f72a863bc00b77633e7570b371e3af099409ab33753fb90a4f263cce8c81c40"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs-continued-delight.pw.toml"
+hash = "88d2fabeace0763014bb9c618d4a1c45d8c4cd1350a55812d4be0dca08263556"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs-continued-farmers-delight-refabricated.pw.toml"
 hash = "285a7a961ffdaa5fcd89872375000993c83b8f7efbc1f42f380ae30871e3e711"
 metafile = true
 
 [[files]]
 file = "mods/alexs-mobs-continued.pw.toml"
-hash = "43d9e41965518997b26a18d670e6a0f5f801524d8db3c778d5fe598f8937ff98"
+hash = "c7fc68946b3f81f8e002024efea49a08b243665637e0c0313e02e399c5366a53"
 metafile = true
 
 [[files]]
@@ -1149,7 +1154,7 @@ metafile = true
 
 [[files]]
 file = "mods/codxlib.pw.toml"
-hash = "9efbe591998da8af4097f025135e7e4350dbb4b36ad243e3e632914d096d1140"
+hash = "10c5766cfee693bb3843ecd60334400b239b961c24fd4b9db60aceca272e3e17"
 metafile = true
 
 [[files]]
@@ -1229,7 +1234,7 @@ metafile = true
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
-hash = "ebb3df18070c94169933965dc6ef11ea68adb2b362623417e6b129f0af9a1bbe"
+hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]
@@ -1249,7 +1254,7 @@ metafile = true
 
 [[files]]
 file = "mods/dimworldborder.pw.toml"
-hash = "cfffd0438129393044f4956f52329e079dda599e142019d1a54af183eaf10ebb"
+hash = "c33ecff922d319f4c6a622ba6254fd2ee8bbe8234b319f6ae6e5a4d471ee5ff9"
 metafile = true
 
 [[files]]
@@ -1334,7 +1339,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "fad24a48bab8f5beed982d2bf2c130ac78abac741f8fa25e7eed618bab5f9398"
+hash = "2245e143a7f25789d22a1807aeb0b240aba3bf542fe280d5759de9c49c48c564"
 metafile = true
 
 [[files]]
@@ -1359,7 +1364,7 @@ metafile = true
 
 [[files]]
 file = "mods/explore-ruins-aether.pw.toml"
-hash = "2970e06f402a3987008e3c90c7bed5bf330a3ddc10a3c73825b2aa3cad0dc8de"
+hash = "16b082c327765a09d35c5ea1f5ea478a692a4546fc61af7ed8e9cd1916fc036f"
 metafile = true
 
 [[files]]
@@ -1414,7 +1419,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "0431771ba664f762587b1d876b0cd0ef4ca0751aed1a5604dfb5f4190f29d409"
+hash = "f2849c357f9c82d017ff71c6d5e91ac8e51d6b0f2de9e7ae8d95bfb81759cd63"
 metafile = true
 
 [[files]]
@@ -1509,7 +1514,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-particles.pw.toml"
-hash = "4c438f02b86fd4a4029f53241a6992b4918428dce2927d856d1cff7ac7547cbc"
+hash = "273158d8d53423dade0401c16efcfec42fe82f7ce07bf54fc09ea96bd45231f4"
 metafile = true
 
 [[files]]
@@ -1588,14 +1593,13 @@ hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
 metafile = true
 
 [[files]]
-file = "mods/lootr-liaison.pw.toml"
-hash = "94b53efaf957926227358aff62e1c17103e66bddba9bbe481b9fa88e1a7ecba1"
-metafile = true
-
-[[files]]
 file = "mods/lootr.pw.toml"
 hash = "ff152357ebb175e8e8c58ecda4f9814d398c5668f3311b0ad6a4afcb1dc26d13"
 metafile = true
+
+[[files]]
+file = "mods/lootr_liaison-1.3.0+1.21.1-neoforge.jar"
+hash = "409699cf87d888dd547605ee82274ebfe9986d9333f148c9c27c38e1acf94bf7"
 
 [[files]]
 file = "mods/luckperms.pw.toml"
@@ -1669,7 +1673,7 @@ metafile = true
 
 [[files]]
 file = "mods/mossylib.pw.toml"
-hash = "24f579bce406713a09fd94a9664239a9c13123c6f196255d611c22e1955453b2"
+hash = "6709b0b597696d356d737a21a1daaaff04dff783b4cd3d48dc9859466716f79d"
 metafile = true
 
 [[files]]
@@ -1689,7 +1693,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "7ca184ae30153e0128135b28491c4b7da04133ebf8222ab82133cdb2d9d155da"
+hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
 metafile = true
 
 [[files]]
@@ -1804,7 +1808,7 @@ metafile = true
 
 [[files]]
 file = "mods/rpg-series-compat.pw.toml"
-hash = "b48419b8fee77dd15c46478cb0fefe9412ecd7e0a034955cad91fa790a9adfc0"
+hash = "0e9c8a13f0fea014d007b27e2d8fee0d374b900654c77aaaec66274d91118c4b"
 metafile = true
 
 [[files]]
@@ -1834,7 +1838,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "d317ca83d26b56f8391be44da811fb443bac7f9b49f75e6a2cf48fa95ef22b28"
+hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
 metafile = true
 
 [[files]]
@@ -1914,7 +1918,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "8a359f14f23b7e501007e86c4f9ef92a3505be666af49290a779f0995d48eecb"
+hash = "abea1aaa824128a43a6c6769e0e006e1fad8ac3b2073a5490f932d9cabe36178"
 metafile = true
 
 [[files]]
@@ -1990,11 +1994,6 @@ metafile = true
 [[files]]
 file = "mods/woodworks.pw.toml"
 hash = "c528ce61fc0e0036a7b6055ad71b1a5bf1cb388537397b6852464b9855d69345"
-metafile = true
-
-[[files]]
-file = "mods/world-dimension-nexus.pw.toml"
-hash = "9d360206be25d60804d813e79ea50a66da9a51209365db741ec603026da88364"
 metafile = true
 
 [[files]]
