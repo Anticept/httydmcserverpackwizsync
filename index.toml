@@ -1845,6 +1845,11 @@ hash = "1a20b7a5724486aea2970c6b7b6566427508da02f630a8c2111b7cf47c84b6eb"
 metafile = true
 
 [[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "0f4f506b1171a3a7d7b73150721075f5b1bc703c043fa539bcdd72c93e665b94"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "06d5443b746e7143ec84328202670f97150ce64af641914661f71f472c90075e"
 metafile = true
@@ -2037,7 +2042,3 @@ hash = "1b14b72aa83e0fa95daaf450492504107efa707ed101292eaba36145538c326e"
 file = "shaderpacks/solas-shader.pw.toml"
 hash = "14f3669e6963af415d0af0915c3581c9c687bc87439ba9ab526b3353bef968ab"
 metafile = true
-
-[[files]]
-file = "world/datapacks/Structory_Towers_v1.0.17.zip"
-hash = "90af7fddea07973fef035b0c99213cc6b4c2baafeeb9c7f8a230b6e256687aa0"
