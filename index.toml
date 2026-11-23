@@ -1057,11 +1057,6 @@ hash = "ce964a3e2af980c35a6c3b0bbcbaa91a4dac639389286a100372d18b2eead1c9"
 metafile = true
 
 [[files]]
-file = "mods/bisecthosting-server-integration-menu-neoforge.pw.toml"
-hash = "e3d12b69f218240aff7e92b97d5d47a08c154259adacd70352f4c05c3ede151d"
-metafile = true
-
-[[files]]
 file = "mods/blueprint.pw.toml"
 hash = "932b1f0df544525e277b4f75fc47dc9c01d0481d773f026082f1cae5c4afdb69"
 metafile = true
