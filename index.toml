@@ -1167,6 +1167,11 @@ hash = "89340330d49ebf646a46af0da4cd457c98e0dca4337490981421d86bfcd2fd94"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "a38d72ca403e9064338be6e0cf69532768b0c1aba8f88703a8ce74c2734da522"
+metafile = true
+
+[[files]]
 file = "mods/crabbers-delight.pw.toml"
 hash = "855115953ba5367522242f9548235b93c347a6ca6a0ab0737e7df233027b138d"
 metafile = true
@@ -1626,7 +1631,7 @@ metafile = true
 
 [[files]]
 file = "mods/mob-ai-tweaks.pw.toml"
-hash = "eb2b6d5e6e3f77c633db74259dfef84ab19e701ae160fc66292a19989817e7c6"
+hash = "5f5ccff90d684ecfab805e04d14cbfd45ae7ba35fc6472b7a0a73ae22192bb52"
 metafile = true
 
 [[files]]
