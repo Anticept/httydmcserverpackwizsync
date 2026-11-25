@@ -1148,7 +1148,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "0f1348dd7b22dacc96711a4405e196bef089fee82eae14f286b1a874ce053a2d"
+hash = "3e331904b85935623be0af57b1bd308778a6568e7a0556ef6f8c644b4380d864"
 metafile = true
 
 [[files]]
@@ -1625,6 +1625,11 @@ hash = "4acb02c7e590ebb510be417e6269e7f07c7b650cf95080cab0daa3005cc8c919"
 metafile = true
 
 [[files]]
+file = "mods/mob-ai-tweaks.pw.toml"
+hash = "5f5ccff90d684ecfab805e04d14cbfd45ae7ba35fc6472b7a0a73ae22192bb52"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "1fae139080953d4ac5c894d72b7a8b205cd998dd347963c8ca295762995b32b8"
 metafile = true
@@ -1947,6 +1952,11 @@ metafile = true
 [[files]]
 file = "mods/vanillin.pw.toml"
 hash = "978e2092174bba920c4b80db81ddb08578cdaace57d650b11b19e94de0295a5c"
+metafile = true
+
+[[files]]
+file = "mods/village-bell-recipe.pw.toml"
+hash = "0ce94e2986fcf42365ffd11fc41e592129c7aabba7ce018e541cda9ba5300214"
 metafile = true
 
 [[files]]
