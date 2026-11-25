@@ -1117,6 +1117,11 @@ hash = "ad215cd8ecda2d49298edc6a4388948cdaeeb9b77cd9206f72c4f6f37d91558b"
 metafile = true
 
 [[files]]
+file = "mods/carrasconlib.pw.toml"
+hash = "e865c23b5dc6713c3d524e7c86567e35139bd81d40744841c23b5b28a96b0bb6"
+metafile = true
+
+[[files]]
 file = "mods/cerulean.pw.toml"
 hash = "745023b6619198653d8d5e31bf1b5ef35e49bc3aec2afca8682e81b200436b95"
 metafile = true
@@ -1895,6 +1900,11 @@ hash = "1a20b7a5724486aea2970c6b7b6566427508da02f630a8c2111b7cf47c84b6eb"
 metafile = true
 
 [[files]]
+file = "mods/structure-credits.pw.toml"
+hash = "1943363a029315c842f4723601b67871d2d499b1eeae17e5d1177a36e45351b9"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "a84f7b320926970b11a158f1eb734d9b4127188883d20945ed4d33ffe13da7a1"
 metafile = true
@@ -1942,6 +1952,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "318b2826182182ff4acd58ffe985c58fe2b403941ec36f41303217bed275feea"
+metafile = true
+
+[[files]]
+file = "mods/travelers-titles.pw.toml"
+hash = "01cab903b1a7f77aa4f28c7fab24e7fa09b376b18c77b487b7ba34e0afc57813"
 metafile = true
 
 [[files]]
