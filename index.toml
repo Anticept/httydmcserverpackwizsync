@@ -1082,6 +1082,11 @@ hash = "f75f946469a16f1640622c2bdecbd8a6dafa0876bf7f1000332abd1328e15ef5"
 metafile = true
 
 [[files]]
+file = "mods/better-copper-armor-and-tools.pw.toml"
+hash = "ce7b5276df08c47d1fb46155c24be2fbd8aa577a5aaa56ba5208d17527e4e2d8"
+metafile = true
+
+[[files]]
 file = "mods/better-modlist-neoforge.pw.toml"
 hash = "5239b3014331068050fe331662006f2f6055e953308becdf3dd2c0e0de442040"
 metafile = true
