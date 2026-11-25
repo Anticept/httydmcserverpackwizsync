@@ -1017,11 +1017,6 @@ hash = "7921e441efb47f6b40228c747cb2aced2ab7459fa8ea639f80806a0e194eb91d"
 metafile = true
 
 [[files]]
-file = "mods/archers-expansion.pw.toml"
-hash = "e576ca8f3bcfcc96cd607c9cc2e7983b8a5c5e9dda88e44eb67af8cb47620e50"
-metafile = true
-
-[[files]]
 file = "mods/archers.pw.toml"
 hash = "4bff1e8a33a3add308656eb3a1af743204ce6469f0ee14c58ef3014cdb558f9e"
 metafile = true
