@@ -1023,7 +1023,7 @@ metafile = true
 
 [[files]]
 file = "mods/archers.pw.toml"
-hash = "bcb893474e28284f71b05d69ab9c42c67e741be11329c8fb450a601064c29e66"
+hash = "4bff1e8a33a3add308656eb3a1af743204ce6469f0ee14c58ef3014cdb558f9e"
 metafile = true
 
 [[files]]
@@ -1033,7 +1033,7 @@ metafile = true
 
 [[files]]
 file = "mods/armor-model-api.pw.toml"
-hash = "dc7bc27468879b22da06641b444e1cd9e9fedc7fd6d8942f14f29756d7c4e59a"
+hash = "65f6753a4695683741492493fc15a189c7ad118fa87c2646e3c331e847124855"
 metafile = true
 
 [[files]]
@@ -1259,11 +1259,6 @@ metafile = true
 [[files]]
 file = "mods/dragonbond-1.21.1-1.2.0.jar"
 hash = "037e75d5b3357575096558e96534d481efe0c0a8f92b84e802aa63785c08e5e9"
-
-[[files]]
-file = "mods/druids.pw.toml"
-hash = "1071db60d371632ad14d94e7e155f0e1349897794bbddbb8c2cf2f0a7e954ee9"
-metafile = true
 
 [[files]]
 file = "mods/dungeon-difficulty.pw.toml"
@@ -1647,11 +1642,6 @@ metafile = true
 [[files]]
 file = "mods/more-mobgriefing-options.pw.toml"
 hash = "f813a52e841687a9bef5d701decbd0019353369b053b9cfd798b0e5bf7ec9aac"
-metafile = true
-
-[[files]]
-file = "mods/more-rpg-library.pw.toml"
-hash = "81bafab234d618b9cbfb938898cf93751cff5b69f192b77a2bc4e8cb90fa6650"
 metafile = true
 
 [[files]]
