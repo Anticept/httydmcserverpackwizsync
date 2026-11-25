@@ -1645,6 +1645,11 @@ hash = "1fae139080953d4ac5c894d72b7a8b205cd998dd347963c8ca295762995b32b8"
 metafile = true
 
 [[files]]
+file = "mods/more-mobgriefing-options.pw.toml"
+hash = "f813a52e841687a9bef5d701decbd0019353369b053b9cfd798b0e5bf7ec9aac"
+metafile = true
+
+[[files]]
 file = "mods/more-rpg-library.pw.toml"
 hash = "81bafab234d618b9cbfb938898cf93751cff5b69f192b77a2bc4e8cb90fa6650"
 metafile = true
