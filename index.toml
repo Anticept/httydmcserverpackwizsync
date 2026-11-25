@@ -1730,11 +1730,6 @@ hash = "e5141bf653c820b9967b8be2e3d9d8e83f3b54d0450f0cabe812e00cce481fdf"
 metafile = true
 
 [[files]]
-file = "mods/perilscope.pw.toml"
-hash = "dd811c0123982b71fcba42307798423354f012362d0af04b76b02b2c83587226"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
